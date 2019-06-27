@@ -144,6 +144,19 @@ var funcion6 = function(){
 	};
 }
 
+/*----------------------*/
+var emergente = document.getElementById('emergente');
+var si = document.getElementById('si');
+var no = document.getElementById('no');
+var nada = document.getElementById('nada');
+var wrap = document.getElementById('wrap');
+
+setTimeout(function(){
+	emergente.style.display = "block";
+	nada.style.display = "block";
+}, 2000);
+
+
 boton.addEventListener("click", funcion);
 boton2.addEventListener("click", funcion2);
 boton3.addEventListener("click", funcion3);
