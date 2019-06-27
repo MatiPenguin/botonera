@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+
+body{
+	background-color: #f4f4f4;
+}
+
+audio{
+	display: none;
+}
+
+.tit{
+	font-family: 'merienda' , cursive;
+	text-align: center;
+	text-decoration: underline;
+	padding: 10px 5px 10px 5px;
+	color: #B77214;
+}
+
+.botones{
+	background-color: #FFC87E;
+	/*background: red;*/
+	margin: auto;
+	text-align: center;
+	width: 60%;
+	/*height: 400px;*/
+	padding: 25px 10px 25px 10px;
+	/*margin-bottom: -50px;*/
+	box-shadow: 3px 5px 2px rgba(0,0,0,0.50);
+	border-radius: 50px;
+}
+
+.wrap{
+	font-size: 20px;
+}
+
+.wrap a{
+}
+
+.boton,
+.boton2{
+	margin-right: 20px;
+	padding: 20px 20px 20px 20px;
+	/*background: #EA8700;*/
+	text-decoration: none;
+	background-color: #FCA837;
+	border-radius: 35px;
+	transition: 1s;
+	color: #fff;
+}
+
+.boton:hover,
+.boton2:hover{
+	background-color: #EC9D32;
+	border-radius: 20px;
+	color: #DEDDDD;
+}
+
+.extras{
+	text-align: center;
+	margin: auto;
+	margin-top: 200px;
+}
+
+.extras a{
+	background-color: #9B6011;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 50px;
+	border-radius: 30px;
+}
+
+.extras a:hover{
+	background-color: #BD7616;
+	transition: 1s;
+	border-radius: 15px;
+}
+
+.datos{
+	float: left;
+	margin-top: -400px;
+	margin-left: 30px;
+	box-shadow: 3px 2px 5px rgba(0,0,0,0.75);
+	width: 135px;
+	text-align: center;
+}
+
+.datos h2{
+	font-family: 'merienda', cursive;
+	color: #B77214;
+}
+
+.datos hr{
+	height: 3px;
+	border: 0;
+	background-color: #FFC87E;
+	width: 75%;
+	margin: auto;
+}
+
+#volumen{
+	transition: 2s;
+}
+
+#looop{
+	transition: 2s;
+}
